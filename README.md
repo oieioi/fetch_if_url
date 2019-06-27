@@ -2,7 +2,8 @@
 
 # FetchIfUrl
 
-Download a file if that path looks like URL and return that path.
+Download a file to `/temp` dir and return the path if it looks like URL.
+If it looks like local path, return as it is.
 
 ## Installation
 
