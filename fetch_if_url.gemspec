@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['atsuinatsu.samuifuyu@gmail.com']
 
   spec.summary       = 'Download a file and return the path if it looks like URL '
-  spec.description   = ' Download a file to `/temp` dir and return the path if it looks like URL.
+  spec.description   = ' Download a file to `/tmp` dir and return the path if it looks like URL.
                         If it looks like local path, return as it is. '
   spec.homepage      = 'https://github.com/oieioi/fetch_if_url'
   spec.license       = 'MIT'
