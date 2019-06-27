@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/oieioi/fetch_if_url.svg?branch=master)](https://travis-ci.com/oieioi/fetch_if_url)
+
 # FetchIfUrl
 
 Download a file if that path looks like URL and return that path.
