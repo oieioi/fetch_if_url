@@ -1,6 +1,8 @@
-require "fetch_if_url/version"
+# frozen_string_literal: true
+
+require 'fetch_if_url/version'
 require 'net/http'
-require "securerandom"
+require 'securerandom'
 
 module FetchIfUrl
   class Error < StandardError; end
@@ -15,7 +17,7 @@ module FetchIfUrl
   end
 
   def on_network?(path)
-    path.start_with?(%r[https?://])
+    path.start_with?(%r{https?://})
   end
 
   def download(url, dest)
