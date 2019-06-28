@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/fetch_if_url.svg)](https://badge.fury.io/rb/fetch_if_url)
 [![Build Status](https://travis-ci.com/oieioi/fetch_if_url.svg?branch=master)](https://travis-ci.com/oieioi/fetch_if_url)
 
 # FetchIfUrl
@@ -24,7 +25,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-CSV.foreach(fetch_if_url('https://example.org/some_heavy_csv.csv')) { |row| ... }
+CSV.foreach(FetchIfUrl.fetch_if_url('https://example.org/some_heavy_csv.csv')) { |row| ... }
 ```
 
 ## Contributing
